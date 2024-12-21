@@ -1,0 +1,87 @@
+/* src/components/Register.css */
+body {
+    background-color: #ceebf6;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #145f06;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end; /* Align the label to the right */
+    align-items: center; /* Center the label and input vertically */
+}
+
+.form-row label {
+    width: 40%;
+    margin-bottom: 0;
+}
+
+.form-row .form-control, 
+.form-row .form-check-inline {
+    flex: 1;
+}
+
+.form-control-file {
+    flex: 1;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Align gender options correctly */
+.form-group .form-check {
+    display: inline-block; /* Keeps radio buttons in a line */
+    margin-right: 10px; /* Adjust spacing between radio buttons */
+}
+
+.form-group .form-check input {
+    margin-right: 5px; /* Adjust space between the radio button and label */
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mt-5 {
+    margin-top: 5rem !important; /* Pushes content below the sticky header */
+}
+
